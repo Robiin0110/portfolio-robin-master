@@ -11,6 +11,10 @@ Contrast Color (White): #FFFFFF;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Basic Body Settings */
 body {
   background-color: #FFFFFF;
@@ -219,6 +223,10 @@ main {
 
 .row {
   margin: 25px 0;
+}
+
+#work_separator {
+  padding-top: 105px;
 }
 
 #work .row {
